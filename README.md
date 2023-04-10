@@ -1,20 +1,20 @@
 # Sales Data Analysis Dashboard
 
-Problem statement:
+## Problem statement:
 A company that supplies computer hardware parts to different clients faces difficulty tracking their sales; also, sales are continuously declining for the company because data is not managed, and stakeholders are unable to track the sales as the market is changing dynamically; the problem is getting more complex. 
 
-Data - 
-The dataset can be downloaded from [here](https://github.com/codebasics/DataAnalysisProjects/tree/master/1_SalesInsights).
- It consists of six tables.
-Product - containing product information. It has 280 rows. The columns available in the table are Product_code and Product_type.
+## Data: 
+The dataset can be downloaded from [here](https://github.com/codebasics/DataAnalysisProjects/tree/master/1_SalesInsights). It consists of five tables.
+ 
+1. Product - containing product information. It has 280 rows. The columns available in the table are Product_code and Product_type.
 
-Customers -  contains customers' information. It has 39 rows. The column available in the table is customer_name, customer_code, and customer_type.
+2. Customers -  contains customers' information. It has 39 rows. The column available in the table is customer_name, customer_code, and customer_type.
 
-Date - contains the exact date of sales; it has 1000 rows. The column available in the table is date, month, and year.
+3. Date - contains the exact date of sales; it has 1000 rows. The column available in the table is date, month, and year.
 
-Market - contains the exact date of sales; it has 1000 rows. The columns available in the table are market_code, market_name, and zone.
+4. Market - contains the exact date of sales; it has 1000 rows. The columns available in the table are market_code, market_name, and zone.
 
-Transactions - contains the exact date of sales; it has 1,48,395 rows. The columns available in the table are currency, customer_code, market_code, order_date, sales_amount, and sales_quantity.
+5. Transactions - contains the exact date of sales; it has 1,48,395 rows. The columns available in the table are currency, customer_code, market_code, order_date, sales_amount, and sales_quantity.
 
 With the help of SQL workbench, I converted all the given data into CSV so that I could use it on the Powerbi desktop. I imported the given data into the SQL workbench, where I made the dashboard and exported the data in CSV format. As shown in the figure below, in Microsoft Power BI, we will import the data from the feature of Get Data; there, I uploaded all the CSV files
 
